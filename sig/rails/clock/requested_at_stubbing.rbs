@@ -1,0 +1,11 @@
+module Rails
+  module Clock
+    module RequestedAtStubbing
+      private
+
+      def set_reference_time_from_request: () -> void
+      def parse_requested_at_from_header: () -> Time?
+      def parse_requested_at_from_params: () -> Time?
+    end
+  end
+end

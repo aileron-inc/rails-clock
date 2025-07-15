@@ -1,0 +1,14 @@
+module Rails
+  module Clock
+    VERSION: String
+    
+    class Error < StandardError
+    end
+
+    self.@reference_time_value: Time?
+
+    def self.reference_time: () -> Time
+    def self.reference_time=: (Time time) -> Time
+    def self.with: (Time time) { () -> void } -> void
+  end
+end

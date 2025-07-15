@@ -1,0 +1,7 @@
+module Rails
+  module Clock
+    module ControllerSupport
+      def requested_at: () -> Time
+    end
+  end
+end

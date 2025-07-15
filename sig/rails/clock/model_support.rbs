@@ -1,0 +1,7 @@
+module Rails
+  module Clock
+    module ModelSupport
+      def reference_time: () -> Time
+    end
+  end
+end
